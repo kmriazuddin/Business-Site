@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 19, 54);
+}
+
+/* .....Manu-bar..... */
+
+.header{
+    display: flex;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+.navbar ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 20px;
+    list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+/* .....Button-Section..... */
+
+.btn{
+    left: 78%;
+    padding: 35px;
+    margin-left: auto;
+}
+.btn1{
+    padding: 5px 15px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: turquoise;
+}
+.btn2{
+    padding: 5px 15px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: turquoise;
+}
+
+/* .....1st-h1&p-tag..... */
+
+.riaz{
+    display: flex;
+    width: 100%;
+}
+.riaz1{
+    padding-top: 50px;
+}
+.riaz1 h1{
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #99EFD0;
+    font-size: 40px;
+    width: 500px;
+}
+.riaz1 p{
+    margin-left: 80px;
+    color: #8476AA;
+    font-size: 20px;
+}
+
+
+/* .....Button-Section.... */
+
+.btn-new{
+    padding-left: 90px;
+    
+}
+.left-btn{
+    position: absolute;
+    width: 157px;
+    height: 46px;
+    left: 80px;
+    top: 425px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.right-btn{
+    position: absolute;
+    width: 157px;
+    height: 46px;
+    left: 240px;
+    top: 425px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(7, 19, 54);
+    border-radius: 5px;
+    border: 1px solid orange;
+    margin-left: 15px;
+}
+.left-btn:hover{
+    background-color: turquoise;
+}
+
+
+/* .....Image-section..... */
+
+.frame img{
+    height: 579.57px;
+    width: 637.49px;
+}
+
+/* .....Watch-Section..... */
+
+.watch{
+    margin-left: 80px;
+    width: 50%;
+    margin-top: -190px;
+}
+.pic{
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    border: 1px  solid orange;
+}
+.watch p{
+    margin-left: 135px;
+    color: #8476AA;
+    font-size: 16px;
+    font-weight: bold;
+}
+.watch h1{
+    margin-left: 135px;
+    margin-top: 20px;
+    color: #6D6D78;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* .....Your-Choice..... */
+
+.choice{
+    padding: 100px 0px;
+    text-align: center;
+}
+.choice h2{
+    color: #99EFD0;
+    font-size: 42px;
+}
+.choice p{
+    font-size: 16px;
+    color: #8476AA;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    margin-left: 100px;
+}
+.content-2 {
+    width: 299px;
+    height: 106px;
+    display: flex;
+    gap: 17px;
+}
+.content-titel h3 {
+    font-size: 18px;
+    color: #99EFD0;
+    margin-bottom: 15px;
+}
+.content-titel p{
+    font-size: 14px;
+    color: #8476AA;
+}
+
+
+/* .....section-2nd..... */
+
+.section-2nd{
+    display: flex;
+    width: 100%;
+    margin-top: 155px;
+}
+.section-2nd-tag h1{
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #99EFD0;
+    font-size: 40px;
+    width: 50%;
+}
+.section-2nd-tag h1 span{
+    color: #F2994A;
+}
+.section-2nd-tag p{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #8476AA;
+    font-size: 16px;
+    width: 55%;
+}
+.btn-3-tag{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #F2994A;
+    border: none;
+    box-shadow: 11px 18px 36px rgba(242, 153, 74, 0.23);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-3-tag:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+
+/* .....section-3rd..... */
+
+.section-3rd-tag{
+    padding-top: 100px;
+    text-align: center;
+}
+.section-3rd-tag h2{
+    font-size: 30px;
+    color: #99EFD0;
+}
+.section-3rd-tag h2 span{
+    color: #F2994A;
+}
+.section-3rd-tag p{
+    padding: 10px;
+    font-size: 18px;
+    color: #8476AA;
+}
+.section-3rd-tag-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+.section-3rd-tag-2 h1{
+    text-align: center;
+    color: #99EFD0;
+}
+.section-3rd-tag-3 h1{
+    text-align: center;
+    color: #99EFD0;
+}
+.section-3rd-tag-4 h1{
+    text-align: center;
+
+    color: #99EFD0;
+}
+.section-3rd-tag-2 p{
+    text-align: center;
+    color: #8476AA;
+}
+.section-3rd-tag-3 p{
+    text-align: center;
+    color: #8476AA;
+}
+.section-3rd-tag-4 p{
+    text-align: center;
+    color: #8476AA;
+}
+
+
+/* .....section-4th..... */
+
+.section-4th{
+    padding-top: 100px;
+    text-align: center;
+}
+.section-4th h2{
+    font-size: 30px;
+    color: #99EFD0;
+}
+.section-4th h2 span{
+    color: #F2994A;
+}
+.section-4th-tag-btn{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #F2994A;
+    border: none;
+    box-shadow: 11px 18px 36px rgba(242, 153, 74, 0.23);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-4th-tag-btn:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+
+/* .....section-5th..... */
+
+.section-5th{
+    padding: 100px 0px;
+    display: flex;
+}
+.section-5th-tag{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.section-5th-tag h2{
+    width: 55%;
+    font-size: 30px;
+    color: #99EFD0;
+}
+.section-5th-tag h2 span{
+    color: #F2994A;
+}
+.section-5th-tag p{
+    width: 55%;
+    padding: 25px 0px;
+    font-size: 18px;
+    color: #8476AA;
+}
+.section-5th-tag-btn{
+    padding: 10px  15px;
+    background-color: #F2994A;
+    border: none;
+    box-shadow: 10px 18px 40px  rgba(242, 153, 74, 0.23);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-5th-tag-btn:hover{
+    background-color: royalblue;
+    color: white;
+}
+.section-5th-tag-img img{
+    margin-right: 80px;
+}
+
+
+
+.section-6th{
+    padding: 100px 0px;
+}
+.section-6th-tag{
+    display: flex;
+    margin-left: 80px;
+}
+.section-6th-tag-2{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.section-6th-tag-2 h3{
+    color: #99EFD0;
+    font-size: 25px;
+}
+.section-6th-tag-2 p{
+    color: #8476AA;
+    width: 60%;
+    margin-top: 15px;
+}
+
+.kazi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.kzi-2 {
+    width: 299px;
+    height: 106px;
+}
+.service img{
+    margin-top: 20px;
+}
+.content-titel h3{
+    margin-top: 10px;
+}
